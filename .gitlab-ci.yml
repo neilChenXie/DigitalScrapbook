@@ -1,0 +1,16 @@
+create_pages:
+    script:
+        - jekyll build
+    only:
+        - master
+    stage:
+        build
+deploy_pages:
+    script:
+        - jekyll build
+        - scp -r _site/* root@172.16.1.114:/opt/apache/htdocs/TODO/
+        - ssh root@172.16.1.114 "chmod a+r /opt/apache/htdocs/TODO"
+    only:
+        - master
+    stage:
+        deploy
