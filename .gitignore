@@ -1,22 +1,3 @@
-# Mac_OS
-.DS_Store
-.Spotlight-V100
-.Trashes
-._*
-
-# Windows
-Thumbs.db
-desktop.ini
-
-# IDE configurations
-.idea
-.vscode/*
-!.vscode/settings.json
-!.vscode/extensions.json
-!.vscode/tasks.json
-*.code-workspace
-
-
 # Bundler cache
 .bundle
 vendor
@@ -34,7 +15,12 @@ _site
 node_modules
 package-lock.json
 
-
+# IDE configurations
+.idea
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/tasks.json
 
 # Misc
 _sass/vendors
