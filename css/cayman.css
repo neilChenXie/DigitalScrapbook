@@ -9,6 +9,10 @@ body {
   line-height: 1.5;
   color: #606c71; }
 
+video {
+  width:100%;
+}
+
 a {
   color: #1e6bb8;
   text-decoration: none; }
@@ -97,7 +101,7 @@ a {
     margin-top: 0; }
   @media screen and (min-width: 64em) {
     .main-content {
-      max-width: 64rem;
+      /*max-width: 64rem;*/
       padding: 2rem 6rem;
       margin: 0 auto;
       font-size: 1.1rem; } }
@@ -110,7 +114,9 @@ a {
       padding: 2rem 1rem;
       font-size: 1rem; } }
   .main-content img {
-    max-width: 100%; }
+      width: min(100%, 800px);
+      height: auto;
+      display: block; }
   .main-content h1,
   .main-content h2,
   .main-content h3,

@@ -12,9 +12,8 @@ author:
   repo:       TODO(Gitlab or GitHub)
 
 # Gems
-gems:
-  #- jekyll-paginate
-  #- jekyll-seo-tag
+plugins:
+  - jekyll-paginate
 
 #Others
 markdown: kramdown
@@ -23,7 +22,7 @@ markdown: kramdown
 collections:
   tags_page:
       output: true
-          
+
 #文章yml头默认参数
 defaults:
     - scope:
