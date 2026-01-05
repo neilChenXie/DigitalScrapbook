@@ -26,4 +26,4 @@ node_modules
 dist
 dist-ssr
 *.local
-_deploy
+_deployg
