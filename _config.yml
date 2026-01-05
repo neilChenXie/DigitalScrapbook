@@ -13,9 +13,8 @@ author:
   repo:       GitHub
 
 # Gems
-#plugins:
-  #- jekyll-paginate
-  #- jekyll-seo-tag
+plugins:
+  - jekyll-paginate
 
 #Others
 markdown: kramdown
