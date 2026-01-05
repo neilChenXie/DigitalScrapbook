@@ -27,9 +27,3 @@ dist
 dist-ssr
 *.local
 _deploy
-
-# Delete Below When Deploy
-_config.yml
-README.md
-LICENSE
-favicon.ico

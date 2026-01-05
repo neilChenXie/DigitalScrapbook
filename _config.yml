@@ -1,0 +1,41 @@
+# Setup
+title:        Chen Blog
+tagline:      All Shared Blogs Based on GitHub Pages
+url:          "http://www.chenxie.fun/"
+baseurl:      ""
+timezone:     Asia/Shanghai
+#paginate:     1
+
+# About/contact
+author:
+  name:       Chen Xie
+  repoUrl:    https://github.com/neilChenXie
+  repo:       GitHub
+
+# Gems
+#plugins:
+  #- jekyll-paginate
+  #- jekyll-seo-tag
+
+#Others
+markdown: kramdown
+
+#Collection
+collections:
+  tags_page:
+      output: true
+
+#文章yml头默认参数
+defaults:
+    - scope:
+        path: ""
+        type: tags_page
+      values:
+        layout: page_tag
+        permalink: /tag/:title/
+    - scope:
+        path: ""
+        type: "posts"
+      values:
+        layout: post
+        permalink: :categories/:title/
