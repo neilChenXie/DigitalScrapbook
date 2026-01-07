@@ -20,6 +20,8 @@ published: true
 
 <iframe src="https://player.bilibili.com/player.html?bvid=BV1knvYBDEjs&amp;page=1&amp;high_quality=1&amp;as_wide=1&amp;allowfullscreen=true&amp;autoplay=0&amp;p=1" style="pointer-events: none; height: 360px; width: 640px;" sandbox="allow-top-navigation-by-user-activation allow-same-origin allow-forms allow-scripts allow-popups"></iframe>
 
+‍
+
 ## 备份视频
 
 ‍
@@ -27,6 +29,8 @@ published: true
 <div>
 <video class="blog video" style="width:100%;height:auto" src="https://chen-video.oss-cn-guangzhou.aliyuncs.com/se_road/Manus%E5%86%B3%E5%AE%9A%E5%87%BA%E5%94%AE%E5%89%8D%E6%9C%80%E5%90%8E%E7%9A%84%E8%AE%BF%E8%B0%88.mp4" controls="controls" />
 </div>
+
+‍
 
 ## 访谈深度整理报告：Manus 的进化与 Agent 的未来
 
